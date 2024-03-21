@@ -8,9 +8,11 @@ git commit -m "메모" - 선택한 파일을 업로드 전 단계로 소환
 <git 유저정보 등록>
 git cofnig --global user.email 계정 이메일
 git config --global user.name 사용자 이름
-git log
-git log --all --oneline
+git log 
+git log --all --oneline - 깃 로그 기록 한줄로 보기
 git push 전 깃 허브는 master이니까 main으로 브랜치 바꿔주기
 git branch -m 변경전브랜치이름 변경후브랜치
 git branch -m master main - 브런치 master에서 main으로 변경
 git push 원격저장소 주소 main -u -> 푸쉬완료
+
+git commit --amend --author="유저이름<유저이메일>" - 커밋 계정 정보를 변경한다

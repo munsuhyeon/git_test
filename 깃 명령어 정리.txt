@@ -12,7 +12,13 @@ git log
 git log --all --oneline - 깃 로그 기록 한줄로 보기
 git push 전 깃 허브는 master이니까 main으로 브랜치 바꿔주기
 git branch -m 변경전브랜치이름 변경후브랜치
+git branch -M main - 내 온라인 저장소에 메인 폴더 등록(저장소 만들고 최초 1회)
 git branch -m master main - 브런치 master에서 main으로 변경
-git push 원격저장소 주소 main -u -> 푸쉬완료
+git push 원격저장소 주소 main -> 푸쉬완료
 
 git commit --amend --author="유저이름<유저이메일>" - 커밋 계정 정보를 변경한다
+git difftool 이전커밋헤쉬코드  다음커밋헤쉬코드
+
+vscode git 관련 확장팩 사용팁 소개
+git extenstion 가서 git graph 검색 후 설치
+설치 후 git작업폴더 가서 외쪽 사이드 세번째 메뉴를 선택한다
